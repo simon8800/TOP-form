@@ -1,35 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./styles.css">
-	<title>Pigeon Messages</title>
-</head>
-<body>
-<div class="image-sidebar"><img src="./sneha_cecil.jpg" alt="Pigeon peeking from around the corner"></div>
-	<div class="info">
-		We deliver your letters and light packages securely and swiftly. Sign up <em?>now</em> to get started.<br/>The pigeons are awaiting your command.
-	</div>
-	<div class="form-section">
-		<form action="">
-			<label for="first-name">First Name</label>
-			<input id="first-name" type="text">
-			<label for="last-name">Last Name</label>
-			<input id="last-name" type="text">
-			<label for="email">Email</label>
-			<input id="email" type="email">
-			<label for="phone-number">Phone Number</label>
-			<input id="phone-number" type="tel">
-			<label for="password">Password</label>
-			<input id="password" type="password">
-			<label for="confirm-password">Confirm Password</label>
-			<input id="confirm-password" type="password">            
-			<div class="bottom-section">
-				<button>Create Account</button>
-				<p>Already have an account? Log in</p>
-			</div>
-		</form>
-	</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Pigeon Messages Sign Up</title>
+  </head>
+  <body>
+    <div class="column-1">
+      <img src="./sneha_cecil.jpg" alt="Pigeon peeking from around a corner" />
+      <div class="logo-container"><img src="./pigeon_messages_transparent.png" alt=""></div>
+      <div class="credits">Photo by <a href="https://unsplash.com/@sneha_snaps">Sneha Cecil</a></div>
+    </div>
+    <div class="column-2">
+      <div class="top">
+        <h1>
+          We deliver your letters swiftly and securely. Sign up <em>now</em> to
+          get started.
+        </h1>
+        <h2>Our pigeons await your command.</h2>
+      </div>
+      <div class="mid">
+        <h2>Coo coo. Let's fly</h2>
+        <form action="" id="sign-up-form">
+          <div class="input-section">
+            <div class="input-item">
+              <label for="first-name">First Name</label>
+              <input id="first-name" type="text" />
+            </div>
+            <div class="input-item">
+              <label for="last-name">Last Name</label>
+              <input id="last-name" type="text" />
+            </div>
+          </div>
+          <div class="input-section">
+            <div class="input-item">
+              <label for="email">Email</label>
+              <input id="email" type="email" />
+            </div>
+            <div class="input-item">
+              <label for="phone">Phone Number</label>
+              <input id="phone" type="tel" />
+            </div>
+          </div>
+          <div class="input-section">
+            <div class="input-item">
+              <label for="password">Password</label>
+              <input id="password" type="password" />
+            </div>
+            <div class="input-item">
+              <label for="confirm-password">Confirm Password</label>
+              <input id="confirm-password" type="password" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="bot">
+        <button type="submit" form="sign-up-form" value="submit">
+          Create Account
+        </button>
+        <div class="login">Already have an account? <a href="">Log in</a></div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
 </html>
